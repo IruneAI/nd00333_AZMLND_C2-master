@@ -14,5 +14,5 @@ logs = service.get_logs()
 for line in logs.split('\n'):
     print(line)
 
-#enabling app insights
+#enable app insights
 service.update(enable_app_insights=True)
