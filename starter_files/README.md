@@ -4,13 +4,13 @@
 
 The main goal of this project is to configure a cloud-based machine learning **production** model, deploy it, and consume it as well as enable workflows automation via pipelines.
 
-1.Authentication
-2.Automated ML Experiment
-3.Deploy the best model
-4.Enable logging
-5.Swagger Documentation
-6.Consume the model endpoints
-7.Create, Publish and Consume a pipeline
+1.  Authentication
+2. Automated ML Experiment
+3. Deploy the best model
+4. Enable logging
+5. Swagger Documentation
+6. Consume the model endpoints
+7. Create, Publish and Consume a pipeline
 
 Documentation
 ## Architectural Diagram
