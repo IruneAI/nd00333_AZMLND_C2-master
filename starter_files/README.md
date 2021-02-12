@@ -1,11 +1,21 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
 
-# Your Project Title Here
+# Operationalizing Machine Learning 
 
-*TODO:* Write an overview to your project.
+The main goal of this project is to configure a cloud-based machine learning **production** model, deploy it, and consume it as well as enable workflows automation via pipelines.
+
+1.  Authentication
+2. Automated ML Experiment
+3. Deploy the best model
+4. Enable logging
+5. Swagger Documentation
+6. Consume the model endpoints
+7. Create, Publish and Consume a pipeline
+
+A further documentation will be provided (15 minutes screencast)
 
 ## Architectural Diagram
+
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Key Steps
