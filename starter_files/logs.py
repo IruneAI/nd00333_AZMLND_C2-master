@@ -5,17 +5,15 @@ from azureml.core.webservice import Webservice
 ws = Workspace.from_config()
 
 # Set with the deployment name
-name = "bankmarketingprediction"
+name = "best-model-deploy"
 
 # load existing web service
 service = Webservice(name=name, workspace=ws)
+
+# enable application insight
+service.update(enable_app_insights=True)
+
 logs = service.get_logs()
 
 for line in logs.split('\n'):
     print(line)
-<<<<<<< HEAD
-=======
-
->>>>>>> 65c84b93ec2f55d2ffed02b483ba70bac0ac6d0b
-#enable app insights
-service.update(enable_app_insights=True)
