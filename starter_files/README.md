@@ -24,7 +24,6 @@ The following architectural diagram describes various **stages** that are critic
 
 ![GitHub pipeline](/starter_files/images/workflow_udacity.png)
 
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Key Steps
 
@@ -33,8 +32,21 @@ Further explanation on each key steps:
 
 This first step consist on allowing the authentication. For that we should create a Service Principal (SP) account and associate it with your specific workspace (allow the access to it). **NOTE: This step is only required if you are using your own Azure account.**
 
-1. Authentication
-2. Automated ML Experiment
+### Step 2: Automated ML Experiment
+Once the security is enabled and authentication is completed, we should create our experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
+
+For that we follow this actions:
+
+1.Initialize our workspace.
+2.Create a new AutoML run
+3.Select and upload desired dataset (*Benchmarking in our case*)
+4.Create a new AutoML experiment.
+5.Configure and attach our desired compute cluster (*Standard_DS12_v2, min_nodes:1*)
+6.Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
+7.Identify the best model.
+
+
+
 3. Deploy the best model
 4. Enable logging
 5. Swagger Documentation
