@@ -16,9 +16,11 @@ The main key steps of this project would be the following ones:
 6. Consume the model endpoints
 7. Create, Publish and Consume a pipeline
 
-A further documentation will be provided (15 minutes screencast). 
+A further documentation and explanations around each main steps will be provided: 15 minutes screencast + all process screenshots.
 
 ## Architectural Diagram
+
+The followin architectural diagram describes various stages that are critical to the overall flow.
 
 ![GitHub pipeline](/starter_files/images/workflow_udacity.png)
 
