@@ -4,7 +4,9 @@
 
 The main goal of this project is to configure a cloud-based machine learning **production** model, deploy it, and consume it as well as enable workflows automation via pipelines.
 
-1.  Authentication
+The dataset used for this project is the [BankMarketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) based on [UCI BankMarketing](https://archive.ics.uci.edu/ml/datasets/bank+marketing). The main steps of this project would be the following:
+
+1. Authentication
 2. Automated ML Experiment
 3. Deploy the best model
 4. Enable logging
@@ -12,7 +14,7 @@ The main goal of this project is to configure a cloud-based machine learning **p
 6. Consume the model endpoints
 7. Create, Publish and Consume a pipeline
 
-A further documentation will be provided (15 minutes screencast)
+A further documentation will be provided (15 minutes screencast). 
 
 ## Architectural Diagram
 
