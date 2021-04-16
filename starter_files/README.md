@@ -47,11 +47,11 @@ For that we follow this actions:
 
 
 
-3. Deploy the best model
-4. Enable logging
-5. Swagger Documentation
-6. Consume the model endpoints
-7. Create, Publish and Consume a pipelin
+### Step 3: Deploy the best model
+### Step 4: Enable logging
+### Step 5: Swagger Documentation
+### Step 6: Consume the model endpoints
+### Step 7: Create, Publish and Consume a pipeline
 
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
