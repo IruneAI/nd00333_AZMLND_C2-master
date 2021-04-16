@@ -4,7 +4,9 @@
 
 The main goal of this project is to configure a cloud-based machine learning **production** model, deploy it, and consume it as well as enable workflows automation via pipelines.
 
-The dataset used for this project is the [BankMarketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) based on [UCI BankMarketing](https://archive.ics.uci.edu/ml/datasets/bank+marketing). The main steps of this project would be the following:
+The dataset used for this project is the [BankMarketing](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv) based on [UCI BankMarketing](https://archive.ics.uci.edu/ml/datasets/bank+marketing).  It is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The **classification** goal is to predict if the client will subscribe a term deposit (variable y).
+
+The main key steps of this project would be the following ones:
 
 1. Authentication
 2. Automated ML Experiment
