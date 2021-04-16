@@ -20,13 +20,27 @@ A further documentation and explanations around each main steps will be provided
 
 ## Architectural Diagram
 
-The followin architectural diagram describes various stages that are critical to the overall flow.
+The following architectural diagram describes various **stages** that are critical to the overall flow as well as the **input/outputs** of them.
 
 ![GitHub pipeline](/starter_files/images/workflow_udacity.png)
 
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
 
 ## Key Steps
+
+Further explanation on each key steps:
+### Step 1: Authentication
+
+This first step consist on allowing the authentication. For that we should create a Service Principal (SP) account and associate it with your specific workspace (allow the access to it). **NOTE: This step is only required if you are using your own Azure account.**
+
+1. Authentication
+2. Automated ML Experiment
+3. Deploy the best model
+4. Enable logging
+5. Swagger Documentation
+6. Consume the model endpoints
+7. Create, Publish and Consume a pipelin
+
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
 
 ## Screen Recording
