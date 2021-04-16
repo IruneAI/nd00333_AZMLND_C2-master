@@ -39,14 +39,14 @@ For that we follow this actions:
 
 1. Initialize our workspace.
 2. Create a new AutoML run
-3. Select and upload desired dataset (*Benchmarking in our case*)
+3. Select and upload desired dataset (*BankMarketing train dataset in our case*)
 ![datasets_screenshot](/starter_files/images/datasets_screenshot.png)
 
 
-5. Create a new AutoML experiment.
-6. Configure and attach our desired compute cluster (*Standard_DS12_v2, min_nodes:1*)
-7. Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
-8. Identify the best model.
+4. Create a new AutoML experiment.
+5. Configure and attach our desired compute cluster (*Standard_DS12_v2, min_nodes:1*)
+6. Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
+7. Identify the best model.
 
 
 
