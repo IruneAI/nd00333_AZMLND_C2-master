@@ -167,4 +167,8 @@ See above followed steps outputs:
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+During the first stages of the ML workflow it has been detected a huge **imbalance** on the dataset. Several approaches for detecting and mitigating this imbalance would be one of the first key actions in the near future.
+
+Some feature engineering around incorporating new datasources would be something interesting also.
+
+Another point would be to work on model portability (https://www.onnxruntime.ai/).
