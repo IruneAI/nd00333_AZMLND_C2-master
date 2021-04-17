@@ -95,9 +95,9 @@ In this step, we will consume the deployed model using Swagger. Azure provides a
 ![logs](/starter_files/images/swagger_listing.png)
 **Fig 11. Swagger Listing
 ![best_model_swagger](/starter_files/images/best_model_swagger.png)
-**Fig 12. API specs for Azure ML model deployed.
+**Fig 12. API specs for Azure ML model deployed.**
 ![swagger_api_details](/starter_files/images/swagger_api_details.png)
-**Fig 12. Swagger Api Details (HTTP methods and responses).
+**Fig 12. Swagger Api Details (HTTP methods and responses).**
 
 ### Step 6: Consume the model endpoints
 ### Step 7: Create, Publish and Consume a pipeline
