@@ -112,6 +112,11 @@ In this step, we will consume the deployed model using Swagger. Azure provides a
 
 
 ### Step 6: Consume the model endpoints
+Next step would be model comsuption. For that we will use the *scoring_uri and key* in endpoint.py script so we can call the trained model.
+
+![endpoint_consumption](/starter_files/images/endpoint_consumption.png)
+**Fig 15. Endpoint Consumption**
+
 ### Step 7: Create, Publish and Consume a pipeline
 
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
