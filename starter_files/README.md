@@ -61,7 +61,7 @@ For that we should take these actions:
 This step allow us to identify the best performance model to be deployed later on. For further metrics details please refer to /images.
 
 ![experiment_automl_algorithms](/starter_files/images/experiment_automl_algorithms.png)
-**Fig5. Best model Voting Ensemble with 0.91988 Accuracy** 
+**Fig 5. Best model Voting Ensemble with 0.91988 Accuracy** 
 
 
 
@@ -70,13 +70,25 @@ This step allow us to identify the best performance model to be deployed later o
 The best model will be deployed/exposed to later infererence stages.
 
 ![best_model_deployment](/starter_files/images/best_model_deployment.png)
-**Fig6. Best model deployment** 
+**Fig 6. Best model deployment** 
 
 ![deployment_sucess](/starter_files/images/deployment_sucess.png)
-**Fig6¡7. Deployment success** 
+**Fig 7. Deployment success** 
 
 
 ### Step 4: Enable logging
+Once the model is deployed, this step will enable Application Insights (AI) and retrieve useful logs.
+
+![applicacions_insights_enabled](/starter_files/images/applicacions_insights_enabled.png)
+**Fig 8. Application Insights enabled** 
+
+
+![logs](/starter_files/images/logs.png)
+**Fig 9. logs.py running** 
+![logs](/starter_files/images/deployment_logs.png)
+**Fig 10. Deployment logs** 
+
+
 ### Step 5: Swagger Documentation
 ### Step 6: Consume the model endpoints
 ### Step 7: Create, Publish and Consume a pipeline
