@@ -85,6 +85,7 @@ Once the model is deployed, this step will enable Application Insights (AI) and 
 
 ![logs](/starter_files/images/logs.png)
 **Fig 9. logs.py running** 
+
 ![deployment_logs](/starter_files/images/deployment_logs.png)
 **Fig 10. Deployment logs** 
 
@@ -94,10 +95,21 @@ Once the model is deployed, this step will enable Application Insights (AI) and 
 In this step, we will consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models (found under *Endpoints section*). This will expose the model for further consumption using RESTful API.
 ![logs](/starter_files/images/swagger_listing.png)
 **Fig 11. Swagger Listing**
+
 ![best_model_swagger](/starter_files/images/best_model_swagger.png)
 **Fig 12. API specs for Azure ML model deployed.**
+
 ![swagger_api_details](/starter_files/images/swagger_api_details.png)
-**Fig 12. Swagger Api Details (HTTP methods and responses).**
+**Fig 13. Swagger Api Details (HTTP methods and responses).**
+
+![service_input_outputs](/starter_files/images/service_input_outputs.png)
+**Fig 14. Service Health Check**
+
+
+![input_payload](/starter_files/images/post.png)
+**Fig 15. Service Payload**
+
+
 
 ### Step 6: Consume the model endpoints
 ### Step 7: Create, Publish and Consume a pipeline
