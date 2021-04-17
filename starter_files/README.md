@@ -39,14 +39,21 @@ For that we follow this actions:
 
 1. Initialize our workspace.
 2. Create a new AutoML run
+![automl_run](/starter_files/images/automlconfig.png)
+
+**Fig1. Create automl run config** 
+
 3. Select and upload desired dataset (*BankMarketing train dataset in our case*)
 ![datasets_screenshot](/starter_files/images/datasets_screenshot.png)
-
+**Fig2. Registered datasets** 
 
 4. Create a new AutoML experiment.
 5. Configure and attach our desired compute cluster (*Standard_DS12_v2, min_nodes:1*)
-6. Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
-7. Identify the best model.
+![compute_cluster_creation](/starter_files/images/autml.png.png)
+**Fig3. Create compute cluster** 
+
+7. Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
+8. Identify the best model.
 
 
 
