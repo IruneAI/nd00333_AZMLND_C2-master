@@ -164,7 +164,7 @@ See above followed steps outputs:
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+Please follow the link: https://drive.google.com/file/d/1i7_44hcDwzSv-GokcWd8A2D7lsfNNd5B/view?usp=sharing
 
 ## Standout Suggestions
 During the first stages of the ML workflow it has been detected a huge **imbalance** on the dataset. Several approaches for detecting and mitigating this imbalance would be one of the first key actions in the near future.
