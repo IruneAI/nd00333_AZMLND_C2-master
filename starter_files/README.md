@@ -39,21 +39,27 @@ For that we follow this actions:
 
 1. Initialize our workspace.
 2. Create a new AutoML run
-![automl_run](/starter_files/images/automlconfig.png)
-
-**Fig1. Create automl run config** 
-
 3. Select and upload desired dataset (*BankMarketing train dataset in our case*)
 ![datasets_screenshot](/starter_files/images/datasets_screenshot.png)
-**Fig2. Registered datasets** 
+**Fig1. Registered datasets** 
 
 4. Create a new AutoML experiment.
+![automl_run](/starter_files/images/automlconfig.png)
+
+**Fig2. Create automl run config** 
 5. Configure and attach our desired compute cluster (*Standard_DS12_v2, min_nodes:1*)
-![compute_cluster_creation](/starter_files/images/autml.png.png)
+![compute_cluster_creation](/starter_files/images/autml.png)
 **Fig3. Create compute cluster** 
 
-7. Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
-8. Identify the best model.
+6. Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
+
+![experiment_automl_finished](/starter_files/images/experiment_automl_finished.png)
+**Fig4. Classification experiment completed** 
+
+7. Identify the best model.
+
+![experiment_automl_finished_metrics](/starter_files/images/experiment_automl_finished_metrics.png)
+**Fig5. Best model Voting Ensemble with 0.91988 Accuracy** 
 
 
 
