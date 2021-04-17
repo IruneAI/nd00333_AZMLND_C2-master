@@ -123,7 +123,44 @@ In this step we are aiming to automate the whole process using the so called pip
 
 We run a notebook (**aml-pipelines-with-automated-machine-learning-step.ipynb**) which creates, publishes and consumes a Azure Machine Learning Pipeline with AutoMLStep.
 
+We will be following the above steps, but this time we will be reusing already created resources such as ws, compute cluster (parameterizing the notebook). 
+
 See above followed steps outputs:
+![pipeline_experiments](/starter_files/images/pipeline_experiments.png)
+**Fig 16. Pipeline created**
+
+![pipeline](/starter_files/images/pipeline_running.png)
+**Fig 17. Pipeline running**
+
+
+![pipeline_finished](/starter_files/images/pipeline_finished.png)
+**Fig 18. Pipeline finished**
+
+
+![pipeline_completed](/starter_files/images/pipeline_completed.png)
+**Fig 19. Bankmartketing dataset with AutoML module**
+
+
+![run_details_widget](/starter_files/images/run_details_widget.png)
+**Fig 19. Run Details Widget**
+
+
+![scheduled_runs_](/starter_files/images/scheduled_runs_.png)
+**Fig 19. Scheduled Runs**
+
+
+![pipeline_finished_](/starter_files/images/pipeline_finished_.png)
+**Fig 19. Pipeline finished**
+
+
+
+
+
+
+
+
+
+
 
 
 ## Screen Recording
