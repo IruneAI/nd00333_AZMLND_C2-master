@@ -119,7 +119,12 @@ Next step would be model comsuption. For that we will use the *scoring_uri and k
 
 ### Step 7: Create, Publish and Consume a pipeline
 
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+In this step we are aiming to automate the whole process using the so called pipelines as building blocks. For that:
+
+We run a notebook (**aml-pipelines-with-automated-machine-learning-step.ipynb**) which creates, publishes and consumes a Azure Machine Learning Pipeline with AutoMLStep.
+
+See above followed steps outputs:
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
