@@ -54,12 +54,11 @@ For that we follow this actions:
 
 6. Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
 
-![experiment_automl_finished](/starter_files/images/experiment_automl_finished.png)
+![experiment_automl_finished_metrics](/starter_files/images/experiment_automl_finished_metrics.png)
 **Fig4. Classification experiment completed** 
 
 7. Identify the best model.
-
-![experiment_automl_finished_metrics](/starter_files/images/experiment_automl_finished_metrics.png)
+![experiment_automl_algorithms](/starter_files/images/experiment_automl_algorithms.png)
 **Fig5. Best model Voting Ensemble with 0.91988 Accuracy** 
 
 
