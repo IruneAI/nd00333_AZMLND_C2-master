@@ -35,7 +35,7 @@ This first step consist on allowing the authentication. For that we should creat
 ### Step 2: Automated ML Experiment
 Once the security is enabled and authentication is completed, we should create our experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
 
-For that we follow this actions:
+For that we should take these actions:
 
 1. Initialize our workspace.
 2. Create a new AutoML run
@@ -58,12 +58,24 @@ For that we follow this actions:
 **Fig4. Classification experiment completed** 
 
 7. Identify the best model.
+This step allow us to identify the best performance model to be deployed later on. For further metrics details please refer to /images.
+
 ![experiment_automl_algorithms](/starter_files/images/experiment_automl_algorithms.png)
 **Fig5. Best model Voting Ensemble with 0.91988 Accuracy** 
 
 
 
+
 ### Step 3: Deploy the best model
+The best model will be deployed/exposed to later infererence stages.
+
+![best_model_deployment](/starter_files/images/best_model_deployment.png)
+**Fig6. Best model deployment** 
+
+![deployment_sucess](/starter_files/images/deployment_sucess.png)
+**Fig6¡7. Deployment success** 
+
+
 ### Step 4: Enable logging
 ### Step 5: Swagger Documentation
 ### Step 6: Consume the model endpoints
