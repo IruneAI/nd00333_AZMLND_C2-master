@@ -47,6 +47,7 @@ For that we follow this actions:
 ![automl_run](/starter_files/images/automlconfig.png)
 
 **Fig2. Create automl run config** 
+
 5. Configure and attach our desired compute cluster (*Standard_DS12_v2, min_nodes:1*)
 ![compute_cluster_creation](/starter_files/images/autml.png)
 **Fig3. Create compute cluster** 
