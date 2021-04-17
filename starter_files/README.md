@@ -41,21 +41,21 @@ For that we should take these actions:
 2. Create a new AutoML run
 3. Select and upload desired dataset (*BankMarketing train dataset in our case*)
 ![datasets_screenshot](/starter_files/images/datasets_screenshot.png)
-**Fig1. Registered datasets** 
+**Fig 1. Registered datasets** 
 
 4. Create a new AutoML experiment.
 ![automl_run](/starter_files/images/automlconfig.png)
 
-**Fig2. Create automl run config** 
+**Fig 2. Create automl run config** 
 
 5. Configure and attach our desired compute cluster (*Standard_DS12_v2, min_nodes:1*)
 ![compute_cluster_creation](/starter_files/images/autml.png)
-**Fig3. Create compute cluster** 
+**Fig 3. Create compute cluster** 
 
 6. Configure experiment run (*Classification, Exit criterion 3 hours, Concurrency 5)* and execute it.
 
 ![experiment_automl_finished_metrics](/starter_files/images/experiment_automl_finished_metrics.png)
-**Fig4. Classification experiment completed** 
+**Fig 4. Classification experiment completed** 
 
 7. Identify the best model.
 This step allow us to identify the best performance model to be deployed later on. For further metrics details please refer to /images.
@@ -93,7 +93,7 @@ Once the model is deployed, this step will enable Application Insights (AI) and 
 
 In this step, we will consume the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models (found under *Endpoints section*). This will expose the model for further consumption using RESTful API.
 ![logs](/starter_files/images/swagger_listing.png)
-**Fig 11. Swagger Listing
+**Fig 11. Swagger Listing**
 ![best_model_swagger](/starter_files/images/best_model_swagger.png)
 **Fig 12. API specs for Azure ML model deployed.**
 ![swagger_api_details](/starter_files/images/swagger_api_details.png)
